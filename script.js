@@ -12,7 +12,7 @@ bars.addEventListener("click", function(){
     home.href="index.html"
     let about = document.createElement("a")
     about.innerText = "About Us"
-    about.href = "about.html"
+    about.href = "About.html"
     let service = document.createElement("a")
     service.innerText = "Services"
     service.href = "service.html"
@@ -26,8 +26,8 @@ bars.addEventListener("click", function(){
     faq.innerText = "FAQ"
     faq.href = "faq.html"
     let blog = document.createElement("a")
-    faq.innerText = "Blog"
-    faq.href = "blogs.html"
+    blog.innerText = "Blog"
+    blog.href = "blogs.html"
     anotherNav.classList.add("another-nav")
     anotherNav.appendChild(home)
     anotherNav.appendChild(about)
